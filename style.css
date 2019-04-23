@@ -1,0 +1,84 @@
+html{
+	font-size: 16px;
+	background-color: #323334;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+}
+.intro {
+	
+}
+
+#container{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	padding-left: 1em;
+	padding-right:1em;
+}
+
+.intro:first-letter {
+	float: left;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+p {
+	font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+h1 h2 {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+	margin: 0;
+	font-size:2.441em;
+	text-align:center;
+}
+
+h2{
+	font-weight: 500;
+	padding-bottom: .3em;
+	margin: 0;
+	font-size:1.935em;
+	text-align:center;
+}
+
+.unique{
+	font-size: 1.563em;;
+	text-transform: capitalize;
+	text-shadow: 1px 1px red;
+}
+
+address{
+	font-family: "Quattrocento", Georgia, "Times New Roman", serif;
+	font-size: .8em;
+	padding-bottom: .5em;
+}
+
+.urlAddress {
+	/* padding-top: .5em;
+	margin: 0; */
+	font-size:1em;
+	font-weight: bold;
+}
+
+a:link { color: purple; }
+a:visited { color: gold; }
+a:hover { color: red; }
+
+.sentence {
+	font-size: 1.563em;
+	
+}
