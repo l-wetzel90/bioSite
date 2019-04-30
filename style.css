@@ -1,15 +1,15 @@
 html{
 	font-size: 16px;
 	background-color: #323334;
-	font-family: 'Anton', 'Montserrat', sans-serif;
+	/* font-family: 'Anton', 'Montserrat', sans-serif; */
 	/* font-family: 'Permanent Marker', cursive; */
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Gloria Hallelujah', cursive; */
+font-family: 'Open Sans', sans-serif;
 
 }
 .intro {
-	
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size:1.5em;
 }
 
 #container{
@@ -43,16 +43,23 @@ h1{
 	text-transform: uppercase;
 	padding-bottom: .5em;
 	margin: 0;
-	font-size:2.441em;
+	font-size:3em;
 	text-align:center;
+	font-family: 'Permanent Marker', cursive;
+	/* font-family: 'Gloria Hallelujah', cursive; */
+	/* font-family: 'Anton', 'Montserrat', sans-serif; */
+
 }
 
 h2{
 	font-weight: 500;
 	padding-bottom: .3em;
 	margin: 0;
-	font-size:1.935em;
+	font-size:2em;
 	text-align:center;
+	/* font-family: 'Permanent Marker', cursive; */
+	font-family: 'Gloria Hallelujah', cursive;
+	/* font-family: 'Anton', 'Montserrat', sans-serif; */
 }
 
 .unique{
