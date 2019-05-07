@@ -7,10 +7,6 @@ html{
 	font-family: 'Open Sans', sans-serif;
 	border: black solid 1px;
 }
-.intro {
-	font-family: 'Anton', 'Montserrat', sans-serif;
-	font-size:1.5em;
-}
 
 #wrapper{
 	width: 80%;
@@ -22,24 +18,15 @@ html{
 	border: black solid 1px;
 }
 
-.intro:first-letter {
-	float: left;
-    font-size: 65px;
-    line-height: 1;
-    font-weight: bold;
-    margin-right: 5px;
-}
-
-p {
-	font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
-	font-weight: 400;
-	line-height: 1.4em;
-	border: black solid 1px;
+#fullSection{
+	margin: 5px auto;
+	text-align: center;
 }
 
 header {
 	text-align: center;
 	border: black solid 1px;
+	text-transform: capitalize;
 }
 
 h1 h2 {
@@ -73,11 +60,39 @@ h2{
 	border: black solid 1px;
 }
 
+footer{
+	font-size: .8em;
+	padding-top: 1em;
+	border-top: black solid 1px;
+	clear: both;
+	border: black solid 1px;
+}
+
+.intro {
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size:1.5em;
+}
+
+.intro:first-letter {
+	float: left;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+p {
+	font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	line-height: 1.4em;
+	border: black solid 1px;
+}
+
 .unique{
 	font-size: 1.563em;;
 	text-transform: capitalize;
 	text-shadow: 1px 1px red;
-border: black solid 1px;
+	border: black solid 1px;
 }
 
 address{
@@ -103,14 +118,6 @@ a:hover { color: red; }
 	border: black solid 1px;
 }
 
-footer{
-	font-size: .8em;
-	padding-top: 1em;
-	border-top: black solid 1px;
-	clear: both;
-	border: black solid 1px;
-}
-
 .copyright{
 	border: black solid 1px;
 	float: right;
@@ -120,7 +127,20 @@ figure {
 	/* float: left; */
 }
 
-#fullSection{
-	margin: 5px auto;
-	text-align: center;
+#story {
+	overflow: auto;
+	width: 75%;
+	margin: auto;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.align-right {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 1px;
+	clear: right;
 }
