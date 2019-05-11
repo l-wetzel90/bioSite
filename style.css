@@ -1,4 +1,8 @@
-html{
+header, main, footer, section, article, figure, figcaption, aside {
+	display: block;
+}
+
+html {
 	font-size: 16px;
 	background-color: #323334;
 	/* font-family: 'Anton', 'Montserrat', sans-serif; */
@@ -8,17 +12,20 @@ html{
 	border: black solid 1px;
 }
 
-#wrapper{
+main {
 	width: 80%;
 	margin: auto;
 	background-color: white;
 	padding-left: 1em;
-	padding-right:1em;
+	padding-right: 1em;
 	padding-bottom: 1em;
 	border: black solid 1px;
 }
+section {
+	border: black solid 1px;
+}
 
-#fullSection{
+#fullSection {
 	margin: 5px auto;
 	text-align: center;
 }
@@ -34,25 +41,24 @@ h1 h2 {
 	border: black solid 1px;
 }
 
-h1{
+h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-bottom: .5em;
 	margin: 0;
-	font-size:3em;
+	font-size: 3em;
 	/* text-align:center; */
 	font-family: 'Permanent Marker', cursive;
 	/* font-family: 'Gloria Hallelujah', cursive; */
 	/* font-family: 'Anton', 'Montserrat', sans-serif; */
 	border: black solid 1px;
-
 }
 
-h2{
+h2 {
 	font-weight: 500;
 	padding-bottom: .3em;
 	margin: 0;
-	font-size:2em;
+	font-size: 2em;
 	/* text-align:center; */
 	/* font-family: 'Permanent Marker', cursive; */
 	font-family: 'Gloria Hallelujah', cursive;
@@ -60,7 +66,7 @@ h2{
 	border: black solid 1px;
 }
 
-footer{
+footer {
 	font-size: .8em;
 	padding-top: 1em;
 	border-top: black solid 1px;
@@ -70,15 +76,15 @@ footer{
 
 .intro {
 	font-family: 'Anton', 'Montserrat', sans-serif;
-	font-size:1.5em;
+	font-size: 1.5em;
 }
 
 .intro:first-letter {
 	float: left;
-    font-size: 65px;
-    line-height: 1;
-    font-weight: bold;
-    margin-right: 5px;
+	font-size: 65px;
+	line-height: 1;
+	font-weight: bold;
+	margin-right: 5px;
 }
 
 p {
@@ -88,14 +94,15 @@ p {
 	border: black solid 1px;
 }
 
-.unique{
-	font-size: 1.563em;;
+.unique {
+	font-size: 1.563em;
+	;
 	text-transform: capitalize;
 	text-shadow: 1px 1px red;
 	border: black solid 1px;
 }
 
-address{
+address {
 	font-family: "Quattrocento", Georgia, "Times New Roman", serif;
 	font-size: .8em;
 	padding-bottom: .5em;
@@ -105,20 +112,28 @@ address{
 .urlAddress {
 	/* padding-top: .5em;
 	margin: 0; */
-	font-size:1em;
+	font-size: 1em;
 	font-weight: bold;
 }
 
-a:link { color: purple; }
-a:visited { color: gold; }
-a:hover { color: red; }
+a:link {
+	color: purple;
+}
+
+a:visited {
+	color: gold;
+}
+
+a:hover {
+	color: red;
+}
 
 .sentence {
 	font-size: 1.563em;
 	border: black solid 1px;
 }
 
-.copyright{
+.copyright {
 	border: black solid 1px;
 	float: right;
 }
@@ -131,6 +146,7 @@ figure {
 	overflow: auto;
 	width: 75%;
 	margin: auto;
+	height: 360px;
 }
 
 img.align-left {
