@@ -9,7 +9,6 @@ html {
 	/* font-family: 'Permanent Marker', cursive; */
 	/* font-family: 'Gloria Hallelujah', cursive; */
 	font-family: 'Open Sans', sans-serif;
-	border: black solid 1px;
 }
 
 body {
@@ -19,45 +18,37 @@ body {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 1em;
-	border: black solid 1px;
 }
 
-main{
+main {
 	width: 90%;
-	border: black solid 1px;
 	/* margin: 11em auto; */
 	margin: auto;
-}
-
-section {
-	border: black solid 1px;
 }
 
 #fullSection {
 	margin: 5px auto;
 	text-align: center;
 }
-aside{
+
+aside {
 	float: right;
 	clear: left;
 	width: 27%;
-	border: black solid 1px;
 }
 
 header {
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	border: black solid 1px;
 	text-transform: capitalize;
 	/* position: fixed; */
 	/* width: 75%; */
-	background-color: rgba(192,192,192,0.9)
+	background-color: rgba(192, 192, 192, 0.9)
 }
 
 h1 h2 {
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
-	border: black solid 1px;
 }
 
 h1 {
@@ -66,11 +57,10 @@ h1 {
 	padding-bottom: .5em;
 	margin: 0;
 	font-size: 3em;
-	/* text-align:center; */
 	font-family: 'Permanent Marker', cursive;
 	/* font-family: 'Gloria Hallelujah', cursive; */
 	/* font-family: 'Anton', 'Montserrat', sans-serif; */
-	border: black solid 1px;
+	/* border: black solid 1px; */
 }
 
 h2 {
@@ -82,7 +72,11 @@ h2 {
 	/* font-family: 'Permanent Marker', cursive; */
 	font-family: 'Gloria Hallelujah', cursive;
 	/* font-family: 'Anton', 'Montserrat', sans-serif; */
-	border: black solid 1px;
+}
+
+h3 {
+	text-align: center;
+	text-transform: capitalize;
 }
 
 footer {
@@ -90,7 +84,6 @@ footer {
 	padding: 1em 0.5em;
 	border-top: black solid 1px;
 	clear: both;
-	border: black solid 1px;
 }
 
 .intro {
@@ -111,26 +104,21 @@ p {
 	font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
 	font-weight: 400;
 	line-height: 1.4em;
-	border: black solid 1px;
 }
 
 .unique {
 	font-size: 1.563em;
 	text-transform: capitalize;
 	text-shadow: 1px 1px red;
-	border: black solid 1px;
 }
 
 address {
 	font-family: "Quattrocento", Georgia, "Times New Roman", serif;
 	font-size: .8em;
 	padding-bottom: .5em;
-	border: black solid 1px;
 }
 
 .urlAddress {
-	/* padding-top: .5em;
-	margin: 0; */
 	font-size: 1em;
 	font-weight: bold;
 }
@@ -149,23 +137,19 @@ a:hover {
 
 .sentence {
 	font-size: 1.563em;
-	border: black solid 1px;
 }
 
 .copyright {
-	border: black solid 1px;
 	float: right;
-	/* margin-right: 0.5em; */
 }
-article{
+
+article {
 	width: 100%;
 }
 
 figure {
-	/* max-width: 350px; */
-	border: black solid 1px;
 	text-align: center;
-	/* margin: 0; */
+	margin: auto;
 }
 
 figure img {
@@ -173,13 +157,11 @@ figure img {
 	max-height: 300px;
 }
 
-#story {
+.story {
 	overflow: auto;
 	width: 100%;
-	max-height: 360px;
+	margin-bottom: 1em;
 }
-
-#story p {}
 
 img.align-left {
 	float: left;
@@ -193,15 +175,28 @@ img.align-right {
 	margin-bottom: 1px;
 	clear: right;
 }
-img{
+
+img {
 	max-width: 300px;
 }
 
-.column1of3{
+.column1of3 {
 	-webkit-columns: 2 200px;
 	-moz-columns: 2 200px;
 	columns: 2 200px;
 	-webkit-column-gap: 4em;
 	-moz-column-gap: 4em;
 	column-gap: 4em;
+}
+
+.column1of3 p {
+	margin-top: 0;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
+
+article {
+	text-align: center;
+	margin-bottom: 3em;
 }
