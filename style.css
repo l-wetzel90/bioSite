@@ -191,6 +191,7 @@ img {
 
 .column1of3 p {
 	margin-top: 0;
+	/* referenced here https://stackoverflow.com/questions/6164963/how-do-i-keep-paragraphs-together-in-html-columns */
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
